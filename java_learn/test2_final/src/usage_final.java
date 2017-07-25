@@ -16,7 +16,7 @@ public class usage_final {
 		StringBuffer buffer2 = new StringBuffer("hello");
 		test.testChangeBufferPoint(buffer2);
 		System.out.println(buffer2);
-		//5: true, false, 原因：final变量在编译过程中被当作成了常量                                                    
+		//5: true, false, 原因：final变量在编译过程中被当作成了常量                         e                           
         String a = "hello" + 2; 
         final String b = "hello";
         String d = "hello";
